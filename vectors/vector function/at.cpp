@@ -6,7 +6,7 @@ int main()
 
     vector<char> vec = {'a', 'b', 'c', 'd', 'e'};
 
-        cout << vec.at(0) << endl;
+    cout << vec.at(0) << endl;
     cout << vec.at(1) << endl;
     cout << vec.at(2) << endl;
 
