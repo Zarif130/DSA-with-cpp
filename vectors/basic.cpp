@@ -5,6 +5,7 @@ int main()
 {
 
     // vector is like an array !
+    /*vector can resize because,it Allocat dynamically */
     vector<int> vec;
     vector<int> vec1 = {1, 2, 3};
     // cout<<vec[0]<<endl;
