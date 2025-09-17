@@ -6,7 +6,7 @@ int main()
     cin.tie(nullptr);
     int marks[] = {99, 84, 83, 77, 65, 65, 45, 43, 23, 87};
     int size_of_array = sizeof(marks);
-    cout << size_of_array<<endl;
+    cout << size_of_array << endl;
     int element_of_the_array = sizeof(marks) / sizeof(int);
     cout << element_of_the_array << endl;
 

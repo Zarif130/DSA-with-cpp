@@ -2,10 +2,11 @@
 using namespace std;
 int bainaryTOdacimal(int baiNum);
 int bainaryTOdacimal(int baiNum){
-int ans=0,pow=1;
+int ans=0;//to store the decimal result
+int pow=1;//represents the current power of 2
     while (baiNum>0)
     {
-        int remainder = baiNum%10;
+        int remainder = baiNum%10;//Extract the rightmost digit of the binary number .
         ans+=remainder*pow;
         baiNum/=10;
         pow*=2;

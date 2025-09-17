@@ -3,12 +3,8 @@ using namespace std;
 int main(){
 ios_base::sync_with_stdio(false);
 cin.tie(nullptr);
-    bool isSafe = true;
-    cout<<isSafe<<endl;
-    if (isSafe)
-    {
-        cout<<"zarif akram";
-    }
-    
+    int a= 010010101;
+    int renainder=a%2;
+    cout<<renainder;
     return 0;
 }
