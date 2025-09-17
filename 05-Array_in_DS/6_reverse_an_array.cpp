@@ -4,19 +4,19 @@ int main()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
-    int size = 6;
-    int arr[size] = {99, 84, 83, 77, 65, 62};
-    int start = 0;
-    int end = size - 1;
-    while (start < end)
+    int array[] = {3, 4, 5, 6, 7,5,5,45,64};
+    int size = sizeof(array) / sizeof(int);
+    int first_index = 0;
+    int last_index = size - 1;
+    while (first_index < last_index)
     {
-        swap(arr[start], arr[end]);
-        start++;
-        end--;
+        swap(array[first_index], array[last_index]);
+        first_index++;
+        last_index--;
     }
     for (int i = 0; i < size; i++)
     {
-        cout << arr[i] << " ";
+        cout << array[i] << endl;
     }
 
     return 0;

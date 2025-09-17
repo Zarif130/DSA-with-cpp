@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-int theSearch(int arr[], int size, int terget)
+int find_the_target_index(int arr[], int size, int terget)
 {
     for (int i = 0; i < size; i++)
     {
@@ -19,7 +19,7 @@ int main()
     int arr[] = {1, 4, 5, 6, 8, 3, 6, 0};
     int size = sizeof(arr) / sizeof(int);
     int terget = 3;
-    int a = theSearch(arr, size, terget);
+    int a = find_the_target_index(arr, size, terget);
     cout << a << endl;
 
     return 0;
