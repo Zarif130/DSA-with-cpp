@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
 
-    // vector is like an array !
+   //each loop is a range-based for loop
 
     cout << "for vec " << endl;
     vector<int> vec(5, 7);// size এবং initial value specify করার একটি way।
