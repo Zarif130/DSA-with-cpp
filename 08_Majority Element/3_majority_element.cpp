@@ -29,6 +29,6 @@ int main()
     // brute force approch!
     vector<int> element = {2, 1, 2, 1, 1};
     int ans = majorityElement(element);
-    cout<<ans;
+    cout << ans;
     return 0;
 }
