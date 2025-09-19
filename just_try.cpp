@@ -41,14 +41,23 @@
 // }
 
 //use of each loop
+// #include <bits/stdc++.h>
+// using namespace std;
+// int main(){
+// ios_base::sync_with_stdio(false);
+// cin.tie(nullptr);
+//     vector<int>each{1,3,4,56};
+//     for(int i:each){
+//         cout<<i<<endl;
+//     }
+//     return 0;
+// }
+
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
 ios_base::sync_with_stdio(false);
 cin.tie(nullptr);
-    vector<int>each{1,3,4,56};
-    for(int i:each){
-        cout<<i<<endl;
-    }
+    
     return 0;
 }
