@@ -58,6 +58,8 @@ using namespace std;
 int main(){
 ios_base::sync_with_stdio(false);
 cin.tie(nullptr);
-    
+    int n=1001;
+    int remain=n%10;
+    cout<<remain;
     return 0;
 }
