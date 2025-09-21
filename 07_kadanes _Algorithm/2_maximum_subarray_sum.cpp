@@ -16,7 +16,7 @@ int main()
         for (int end = start; end < n; end++)
         {
             current_sum += arr[end];
-            // max function er kaj corrent_sum k return kora jodi current sum boro hoy na hole max_sum k return korbe!
+            // max function er kaj corrent_sum k return kora, jodi current sum boro hoy na hole max_sum k return korbe!
 
             max_sum = max(current_sum, max_sum);
         }

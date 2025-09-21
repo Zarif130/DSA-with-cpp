@@ -32,7 +32,12 @@ int main()
     int target = 8;
 
     vector<int> ans = pairsum(num, target);
-    cout << ans[0] << " " << ans[1] << endl;
+
+    // cout << ans[0] << " " << ans[1] << endl;
+
+    for(int value:ans){
+        cout<<value<<" ";
+    }
 
     return 0;
 }

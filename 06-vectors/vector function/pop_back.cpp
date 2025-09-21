@@ -12,7 +12,7 @@ int main()
     vec.push_back(40);
     cout<<"after push back the size is = "<<vec.size()<<endl;
 
-    vec.pop_back();
+    vec.pop_back();//helps to remove the last element of the vecto!
 
     //this is the for each loop !
     for(int value : vec){
