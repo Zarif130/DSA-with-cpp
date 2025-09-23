@@ -3,6 +3,7 @@ using namespace std;
 int majorityElement(vector<int> element);
 int majorityElement(vector<int> element)
 {
+    //brute force approch!
     int n = element.size();
     for (int value : element)
     {
@@ -11,8 +12,7 @@ int majorityElement(vector<int> element)
         {
             if (el == value)
             {
-
-                freq++;
+               freq++;
             }
         }
 
