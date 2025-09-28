@@ -28,5 +28,21 @@ int main()
     }
     cout << ans;
 
+    // if majority element is not available!
+    int count = 0;
+    for (int value : num)
+    {
+        if (value == ans)
+        {
+            count++;
+        }
+    }
+    if (count > n / 2)
+    {
+        return ans;
+    }
+
+    else
+        return -1;
     return 0;
 }
