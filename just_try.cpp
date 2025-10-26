@@ -338,32 +338,52 @@
 // }
 
 //majority element optimize code!
-#include<bits\stdc++.h>
-using namespace std;
-int main(){
+// #include<bits\stdc++.h>
+// using namespace std;
+// int main(){
      
-vector<int> num = {2, 2, 1, 2, 1, 2, 1, 2, 1, 1, 2};
+// vector<int> num = {2, 2, 1, 2, 1, 2, 1, 2, 1, 1, 2};
 
-    int n = num.size();
+//     int n = num.size();
 
-    int freq=0;
-    int ans=0;
+//     int freq=0;
+//     int ans=0;
     
-    for (int i = 0; i < n; i++)
-    {
-        if (freq==0)
-        {
-                ans=num[i];
-        }
-        if (ans==num[i])
-        {
-                freq++;
-        }
-        else{
-            freq--;
-        }
-    }
-    cout<<ans;
+//     for (int i = 0; i < n; i++)
+//     {
+//         if (freq==0)
+//         {
+//                 ans=num[i];
+//         }
+//         if (ans==num[i])
+//         {
+//                 freq++;
+//         }
+//         else{
+//             freq--;
+//         }
+//     }
+//     cout<<ans;
     
+//     return 0;
+// }
+
+#include <bits/stdc++.h>
+using namespace std;
+class teacher {
+    public:
+    string name;
+    int age;
+    double salary;
+};
+int main(){
+ios_base::sync_with_stdio(false);
+cin.tie(nullptr);
+    teacher t1;
+    t1.salary=23440;
+    t1.name="zarif";
+    t1.age=22;
+    cout<<t1.name<<endl;
+    cout<<t1.salary<<endl;
     return 0;
 }
