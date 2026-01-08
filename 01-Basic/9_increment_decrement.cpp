@@ -8,7 +8,7 @@ cin.tie(nullptr);
     cout<<"b="<<b<<endl;
     cout<<"a="<<a<<endl;
     int x=50;
-    int y=x++;//aghe update hobe tarpor kaj  hobe!
+    int y=++x;//aghe update hobe tarpor kaj  hobe!
     cout<<"y="<<y<<endl;
     cout<<"y="<<y<<endl;
     return 0;
